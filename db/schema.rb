@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_02_225339) do
+ActiveRecord::Schema.define(version: 2020_07_26_101027) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2019_09_02_225339) do
     t.string "description"
     t.string "image_url"
     t.string "manufacturer"
-    t.integer "structure_type"
+    t.string "structure_type"
     t.float "price"
     t.float "height"
     t.float "width"
