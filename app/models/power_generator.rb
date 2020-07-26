@@ -5,6 +5,9 @@ class PowerGenerator < ApplicationRecord
   validates :lenght, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 200 }
   validates :weight, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 3000 }
 
+  scope :search, ->(query) { where('name LIKE ?', "%#{query}%")
+                                .or(where(structure_type: query.to_s)) }
+
   enum structure_type: %i[
     metalico
     ceramico

@@ -6,6 +6,6 @@ feature 'Visits home page' do
     visit root_path
 
     expect(page).to have_content('Geradores de Energia')
+    expect(page).to have_content('TRIFÁSICO 380V')
   end
-
 end

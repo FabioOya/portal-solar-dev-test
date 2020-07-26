@@ -16,13 +16,14 @@
       </div>
     </div>
 
-    <%= form_tag do %>
+    <%= form_with url: search_home_index_path, method: :get, local: true do |f| %>
       <div class="simple-form">
         <div class="simple-form__input">
-          <input class="form-control form-control-lg" type="text" placeholder="o que procura?">
+          <%= f.label :q, 'Busca', :class=>'form-control form-control-lg' %>
+          <%= f.search_field :q %>
         </div>
         <div class="simple-form__btn">
-          <button type="submit" class="btn btn-outline-primary btn-lg">Pesquisar</button>
+          <%= f.submit 'Pesquisar', :class=>"btn btn-outline-primary btn-lg" %>
         </div>
       </div>
 

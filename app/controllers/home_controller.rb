@@ -1,10 +1,10 @@
-class PowerGeneratorsController < ApplicationController
+class HomeController < ApplicationController
   def index
     @power_generators = PowerGenerator.all
   end
 
   def search
     @power_generators = PowerGenerator.search(params[:q])
-    #render
+    #render root_path
   end
 end
