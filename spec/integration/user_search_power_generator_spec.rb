@@ -38,4 +38,31 @@ feature 'User search power generator' do
     expect(page).not_to have_content('Y600')
     expect(page).not_to have_content('ceramico')
   end
+  
+  scenario 'by manufacturer' do
+    visit root_path
+    fill_in 'Busca', with: 'q cells'
+    click_on 'Pesquisar'
+
+    expect(page).to have_content('CELLS MONO PERC')
+    expect(page).to have_content('FRONIUS TRAPEZOIDAL')
+    expect(page).to have_content('FRONIUS TRAPEZOIDAL')
+    expect(page).to have_content('REFUSOL LAJE')
+    expect(page).to have_content('SMA SOLO')
+    expect(page).to have_content('REFUSOL SOLO')
+    expect(page).to have_content('MONO PERC')
+    expect(page).to have_content('Q CELLS')
+    expect(page).not_to have_content('WEG')
+    expect(page).not_to have_content('WEG HÍBRIDO')
+
+  end
+
+  scenario 'no matches' do
+    visit root_path
+
+    fill_in 'Busca', with: 'GERADOR DE ENERGIA BONITAO'
+    click_on 'Pesquisar'
+
+    expect(page).to have_content('Nenhum resultado encontrado')
+  end
 end

@@ -9,6 +9,12 @@
     <%= javascript_pack_tag 'application' %>
   </head>
   <body>
+    <div class="header">
+    <%= link_to root_path do %>
+      <div class="logo"><%= image_tag 'ps_logo.png', alt: 'logo-img' %></div>
+    <% end %>
+    <div class="header__title">Geradores de Energia</div>
+  </div>
     <%= yield %>
   </body>
 </html>

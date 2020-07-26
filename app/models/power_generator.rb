@@ -6,10 +6,11 @@ class PowerGenerator < ApplicationRecord
   validates :weight, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 3000 }
 
   scope :search, ->(query) { where('name LIKE ?', "%#{query.upcase}%")
-                                .or(where(structure_type: query)) }
+                                .or(where(structure_type: query))
+                                .or(where(manufacturer: query.upcase)) }
 
-  # enum structure_type: %i[
-  #   metalico
+  # enum structure_type: %i[ #Nao vejo necessidade de enum por enquanto,
+  #   metalico                estrutura do gerador nao muda.  
   #   ceramico
   #   fibrocimento
   #   laje

@@ -1,3 +1,4 @@
+<% if @power_generators.present? %>
   <div class="container" >
     <% @power_generators.each do |power_generator| %>
       <div class="box card power_generator-card">
@@ -7,7 +8,11 @@
           <p class="power_generator-card__price"><%= number_to_currency(power_generator.price, unit: "R$ ", precision: 2, :separator => ",", :delimiter => ".") %></p>
           <p><strong>Descrição: </strong><%= power_generator.description %></p>
           <p><strong>Tipo de Estrutura: </strong><%= power_generator.structure_type %></p>
+          <p><strong>Fabricante: </strong><%= power_generator.manufacturer %></p>
         </div>
       </div>
     <% end %>
   </div>
+<% else %>
+  <p> Nenhum resultado encontrado</p>
+<% end %>
