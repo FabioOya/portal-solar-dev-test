@@ -14,7 +14,7 @@ PowerGenerator.create!(
   width: 0.2,
   lenght: 1.8,
   weight: 118,
-  structure_type: :metalico
+  structure_type: 'metalico'
 )
 
 PowerGenerator.create!(
@@ -31,7 +31,7 @@ PowerGenerator.create!(
   width: 0.3,
   lenght: 1.1,
   weight: 172,
-  structure_type: :fibrocimento
+  structure_type: 'fibrocimento'
 )
 
 PowerGenerator.create!(
@@ -48,7 +48,7 @@ PowerGenerator.create!(
   width: 0.2,
   lenght: 2.1,
   weight: 142,
-  structure_type: :ceramico
+  structure_type: 'ceramico'
 )
 
 PowerGenerator.create!(
@@ -65,7 +65,7 @@ PowerGenerator.create!(
   width: 0.35,
   lenght: 2,
   weight: 110,
-  structure_type: :metalico
+  structure_type: 'metalico'
 )
 
 PowerGenerator.create!(
@@ -86,7 +86,7 @@ PowerGenerator.create!(
   width: 0.35,
   lenght: 1.9,
   weight: 150,
-  structure_type: :trapezoidal
+  structure_type: 'trapezoidal'
 )
 
 PowerGenerator.create!(
@@ -104,7 +104,7 @@ PowerGenerator.create!(
   width: 0.4,
   lenght: 1.5,
   weight: 268,
-  structure_type: :fibrocimento
+  structure_type: 'fibrocimento'
 )
 
 PowerGenerator.create!(
@@ -126,7 +126,7 @@ PowerGenerator.create!(
   width: 0.2,
   lenght: 2.2,
   weight: 155,
-  structure_type: :metalico
+  structure_type: 'metalico'
 )
 
 PowerGenerator.create!(
@@ -143,7 +143,7 @@ PowerGenerator.create!(
   width: 0.15,
   lenght: 1.8,
   weight: 218,
-  structure_type: :metalico
+  structure_type: 'metalico'
 )
 
 PowerGenerator.create!(
@@ -164,7 +164,7 @@ PowerGenerator.create!(
   width: 0.5,
   lenght: 1.1,
   weight: 98,
-  structure_type: :trapezoidal
+  structure_type: 'trapezoidal'
 )
 
 PowerGenerator.create!(
@@ -185,7 +185,7 @@ PowerGenerator.create!(
   width: 0.55,
   lenght: 1.1,
   weight: 172,
-  structure_type: :trapezoidal
+  structure_type: 'trapezoidal'
 )
 
 PowerGenerator.create!(
@@ -202,7 +202,7 @@ PowerGenerator.create!(
   width: 0.3,
   lenght: 1,
   weight: 110,
-  structure_type: :laje
+  structure_type: 'laje'
 )
 
 PowerGenerator.create!(
@@ -219,7 +219,7 @@ PowerGenerator.create!(
   width: 0.45,
   lenght: 1.2,
   weight: 250,
-  structure_type: :laje
+  structure_type: 'laje'
 )
 
 PowerGenerator.create!(
@@ -236,7 +236,7 @@ PowerGenerator.create!(
   width: 0.2,
   lenght: 2.3,
   weight: 87,
-  structure_type: :solo
+  structure_type: 'solo'
 )
 
 PowerGenerator.create!(
@@ -253,7 +253,7 @@ PowerGenerator.create!(
   width: 0.35,
   lenght: 1.2,
   weight: 140,
-  structure_type: :solo
+  structure_type: 'solo'
 )
 
 PowerGenerator.create!(
@@ -270,7 +270,7 @@ PowerGenerator.create!(
   width: 0.25,
   lenght: 1.5,
   weight: 122,
-  structure_type: :solo
+  structure_type: 'solo'
 )
 
 PowerGenerator.create!(
@@ -295,7 +295,7 @@ PowerGenerator.create!(
   width: 0.15,
   lenght: 1.8,
   weight: 114,
-  structure_type: :solo
+  structure_type: 'solo'
 )
 
 PowerGenerator.create!(
@@ -312,7 +312,7 @@ PowerGenerator.create!(
   width: 0.25,
   lenght: 2.2,
   weight: 118,
-  structure_type: :trapezoidal
+  structure_type: 'trapezoidal'
 )
 
 PowerGenerator.create!(
@@ -329,7 +329,7 @@ PowerGenerator.create!(
   width: 0.3,
   lenght: 1.8,
   weight: 99,
-  structure_type: :laje
+  structure_type: 'laje'
 )
 
 # Import to XLS with Freights

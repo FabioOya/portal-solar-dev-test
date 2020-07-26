@@ -11,7 +11,7 @@
         "lines": [
           1,
           1,
-          2,
+          4,
           null,
           null,
           1,
@@ -30,7 +30,47 @@
       },
       "/home/fabio_iwao/portal-solar-dev-test/app/models/power_generator.rb": {
         "lines": [
-
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          3,
+          null,
+          null,
+          null
         ]
       },
       "/home/fabio_iwao/portal-solar-dev-test/app/channels/application_cable/channel.rb": {
@@ -53,31 +93,6 @@
         "branches": {
         }
       },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/home_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/home/fabio_iwao/portal-solar-dev-test/app/models/freight.rb": {
         "lines": [
           0,
@@ -88,6 +103,6 @@
         }
       }
     },
-    "timestamp": 1595757306
+    "timestamp": 1595762539
   }
 }

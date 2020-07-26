@@ -19,8 +19,7 @@
     <%= form_with url: search_home_index_path, method: :get, local: true do |f| %>
       <div class="simple-form">
         <div class="simple-form__input">
-          <%= f.label :q, 'Busca', :class=>'form-control form-control-lg' %>
-          <%= f.search_field :q %>
+          <%= f.search_field :q, :placeholder=>'Busca'%>
         </div>
         <div class="simple-form__btn">
           <%= f.submit 'Pesquisar', :class=>"btn btn-outline-primary btn-lg" %>
