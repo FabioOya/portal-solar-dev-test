@@ -2,8 +2,8 @@ require 'rails_helper'
 
 feature 'User search power generator' do
   scenario 'by exact name' do
- 
     visit root_path
+
     fill_in 'Busca', with: 'YC600'
     click_on 'Pesquisar'
 
@@ -41,6 +41,7 @@ feature 'User search power generator' do
   
   scenario 'by manufacturer' do
     visit root_path
+
     fill_in 'Busca', with: 'q cells'
     click_on 'Pesquisar'
 

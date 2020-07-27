@@ -1,0 +1,29 @@
+<h1>Pesquisa Avançada</h1>
+
+<%= form_for @advanced_search do |s| %>
+  <div class ="advanced-search-form">
+    <div class="form-text-field">
+      <%= s.label :keywords, 'Palavra-chave'%>
+      <%= s.text_field :keywords %>
+    </div>
+    <div class="form-select-field">
+      <%= s.label :structure_type, 'Estrutura'%>
+      <%= s.select :structure_type, options_for_select(@structures), :include_blank => true %>
+    </div>
+      <div class="form-select-field">
+      <%= s.label :manufacturer, 'Fabricante' %>
+      <%= s.select :manufacturer, options_for_select(@manufacturers), :include_blank => true %>
+    </div>
+    <div class="form-text-field">
+      <%= s.label :min_price, "Preço Minimo" %> <%= s.text_field :min_price %>
+      <%= s.label :max_price, "Preço Máximo" %> <%= s.text_field :max_price %>
+    </div>
+    <div class="form-text-field">
+      <%= s.label :kwp, "Kwp" %>
+      <%= s.text_field :kwp %>
+    </div>
+    <div class="s"><%= s.submit 'Pesquisar', :class=>"form-submit-btn" %></div>
+  </div>
+<% end %>
+
+

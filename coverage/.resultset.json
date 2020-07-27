@@ -7,11 +7,37 @@
           null
         ]
       },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/advanced_search.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          7,
+          null,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          null,
+          7,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/home/fabio_iwao/portal-solar-dev-test/app/controllers/power_generators_controller.rb": {
         "lines": [
           1,
           1,
-          6,
+          10,
           null,
           null,
           1,
@@ -50,13 +76,36 @@
           null,
           null,
           null,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/advanced_searches_controller.rb": {
         "lines": [
           1,
           1,
+          4,
+          4,
+          4,
+          null,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
           null
         ]
       },
@@ -104,6 +153,6 @@
         }
       }
     },
-    "timestamp": 1595799298
+    "timestamp": 1595829241
   }
 }
