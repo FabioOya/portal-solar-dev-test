@@ -7,10 +7,10 @@ class FreightsController < ApplicationController
     finder = Correios::CEP::AddressFinder.new
     destiny_adress = finder.get(Freight.state)
     city = adress.to_a[2][1]
-    destiny_geolocation = Geocoder.search
-    destiny_coordinates = geolocation.first.coordinates
-   end
-
+    destiny_geolocation = Geocoder.search(city)
+    destiny_coordinates = destiny_geolocation.first.coordinates
+  end
+  
   def new
     @freight = Freight.new
     @power_generators = PowerGenerator.all

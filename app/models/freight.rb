@@ -7,7 +7,7 @@ class Freight < ApplicationRecord
 
   def origin_geolocation
   end
-  
-  def find_distance_geolocation
+
+  def distance_diference_geolocation
   end
 end
