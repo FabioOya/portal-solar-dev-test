@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_27_013114) do
+ActiveRecord::Schema.define(version: 2020_07_27_080423) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 2020_07_27_013114) do
     t.float "weight_min"
     t.float "weight_max"
     t.float "cost"
+    t.bigint "power_generator_id"
+    t.index ["power_generator_id"], name: "index_freights_on_power_generator_id"
   end
 
   create_table "power_generators", force: :cascade do |t|
@@ -49,4 +51,5 @@ ActiveRecord::Schema.define(version: 2020_07_27_013114) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "freights", "power_generators"
 end
