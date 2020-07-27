@@ -1,0 +1,18 @@
+<h1> Detalhes do gerador </h1>
+<div class="container" >
+  <div class="box card power_generator-card">
+    <%= image_tag @power_generator.image_url, class: 'power_generator-card__img' %>
+    <div class="power_generator-card__body", id="pg-<%= @power_generator.id %>">
+      <h2><%= @power_generator.name.upcase %></h2>
+      <p class="power_generator-card__price"><%= number_to_currency(@power_generator.price, unit: "R$ ", precision: 2, :separator => ",", :delimiter => ".") %></p>
+      <p><strong>Descrição: </strong><%= @power_generator.description %></p>
+      <p><strong>Tipo de Estrutura: </strong><%= @power_generator.structure_type %></p>
+      <p><strong>Fabricante: </strong><%= @power_generator.manufacturer %></p>
+      <p><strong>Altura: </strong><%= @power_generator.height %>m</p>
+      <p><strong>Largura: </strong><%= @power_generator.width %>m</p>
+      <p><strong>Comprimento: </strong><%= @power_generator.lenght %>m</p>
+      <p><strong>Peso: </strong><%= @power_generator.weight %>kg</p>
+      <p><strong>Kilo what pico: </strong><%= @power_generator.kwp %>wH</p>
+    </div>
+  </div>
+</div>
