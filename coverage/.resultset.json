@@ -1,6 +1,177 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/fabio_iwao/portal-solar-dev-test/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/advanced_search.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          7,
+          null,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          null,
+          7,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/power_generators_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          12,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/power_generator.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          6,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/advanced_searches_controller.rb": {
+        "lines": [
+          1,
+          1,
+          4,
+          4,
+          4,
+          null,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/freights_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/models/freight.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          5,
+          null,
+          null,
+          null
+        ]
+      },
       "/home/fabio_iwao/portal-solar-dev-test/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -20,196 +191,8 @@
         ],
         "branches": {
         }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/advanced_searches_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/freights_controller.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/home_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/controllers/power_generators_controller.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/advanced_search.rb": {
-        "lines": [
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/freight.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/home/fabio_iwao/portal-solar-dev-test/app/models/power_generator.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1595857936
+    "timestamp": 1595859185
   }
 }

@@ -1,14 +1,19 @@
 class FreightsController < ApplicationController
-  require 'correios-frete'
+  require 'correios-cep'
+  require 'geocoder'
 
   def show
     @freight = Freight.find(params[:id])
-  end
+    finder = Correios::CEP::AddressFinder.new
+    destiny_adress = finder.get(Freight.state)
+    city = adress.to_a[2][1]
+    destiny_geolocation = Geocoder.search
+    destiny_coordinates = geolocation.first.coordinates
+   end
 
   def new
     @freight = Freight.new
     @power_generators = PowerGenerator.all
-    #@power_generator = PowerGenerator.find(params[:id])
   end
   
   def create
