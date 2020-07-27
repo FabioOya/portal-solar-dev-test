@@ -5,7 +5,7 @@
     <div class="form-text-field">
       <%= s.label :keywords, 'Palavra-chave'%>
       <%= s.text_field :keywords %>
-    </div>
+  </div>
     <div class="form-select-field">
       <%= s.label :structure_type, 'Estrutura'%>
       <%= s.select :structure_type, options_for_select(@structures), :include_blank => true %>
@@ -22,7 +22,7 @@
       <%= s.label :kwp, "Kwp" %>
       <%= s.text_field :kwp %>
     </div>
-    <div class="s"><%= s.submit 'Pesquisar', :class=>"form-submit-btn" %></div>
+    <div class="defiune"><%= s.submit 'Pesquisar', :class=>"form-submit-btn" %></div>
   </div>
 <% end %>
 
