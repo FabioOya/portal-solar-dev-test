@@ -10,11 +10,9 @@ feature 'User check freight with cep' do
     end
 
     click_on 'Consultar Frete'
-
-    expect(current_path).to eq(new_freight_path)
-
     fill_in 'Digite o CEP', with: '05454040'
     click_on 'Calcular'
-
+    
+    expect(page).to have_content('Preço de Frete')
   end
 end

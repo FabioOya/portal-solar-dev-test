@@ -1,6 +1,5 @@
 <h1> Consulta de Frete </h1>
-
-<%= form_with model: @freight, local: true do |f| %>
+<%= form_with: model: @freight, url: get_freight_power_generator_freights_path, method: :get ,local: true do |f| %>
   <div>
     <%= f.text_field :state, :placeholder=>"Digite o CEP" %>
     <%= f.submit 'Calcular' %>

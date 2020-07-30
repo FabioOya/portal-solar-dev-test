@@ -1,4 +1,5 @@
 class PowerGenerator < ApplicationRecord
+  #before_commit :calculate_cubed_weight!
   has_many :freights
   validates :name, :description, :image_url, :manufacturer, :price, :kwp, presence: true
   validates :height, numericality: { greater_than_or_equal_to: 0, less_than_or_equal_to: 40 }
@@ -19,4 +20,8 @@ class PowerGenerator < ApplicationRecord
   #   trapezoidal
   # ]
 
+  def calculate_cubed_weight
+    self.cubed_weight = lenght * width * height * 300
+  end
+  
 end

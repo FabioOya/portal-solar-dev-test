@@ -332,7 +332,7 @@ PowerGenerator.create!(
   structure_type: 'laje'
 )
 
-# Import to XLS with Freights
+#Import to XLS with Freights
 
 xls_file = Roo::Spreadsheet.open(File.join('db', 'loader', 'freight_data.xlsx')).sheet(0)
 1.upto(594) do |line|
